@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginBar tests matches snapshot when logged in 1`] = `
+<Uncontrolled(Navbar)
+  bsStyle="default"
+  className="App-header"
+>
+  <NavbarHeader>
+    <img
+      alt="logo"
+      className="App-logo"
+      height={40}
+      src="/images/logo.png"
+      width={80}
+    />
+    <NavbarToggle />
+  </NavbarHeader>
+</Uncontrolled(Navbar)>
+`;
+
+exports[`LoginBar tests matches snapshot when logged out 1`] = `
+<Uncontrolled(Navbar)
+  bsStyle="default"
+  className="App-header"
+>
+  <NavbarHeader>
+    <img
+      alt="logo"
+      className="App-logo"
+      height={40}
+      src="/images/logo.png"
+      width={80}
+    />
+    <NavbarToggle />
+  </NavbarHeader>
+  <NavbarCollapse>
+    <NavbarForm
+      componentClass="div"
+      pullLeft={true}
+      pullRight={false}
+    >
+      <label>
+        Username:
+        <input
+          name="username"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <label>
+        Password:
+        <input
+          name="password"
+          onChange={[Function]}
+          type="password"
+          value=""
+        />
+      </label>
+      <label>
+        Nickname:
+        <input
+          name="nickname"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsSize="small"
+        bsStyle="default"
+        className="App-Button"
+        disabled={false}
+        onClick={[Function]}
+        type="submit"
+      >
+        Login
+      </Button>
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsSize="small"
+        bsStyle="default"
+        className="App-Button"
+        disabled={false}
+        onClick={[Function]}
+        type="submit"
+      >
+        Register
+      </Button>
+    </NavbarForm>
+  </NavbarCollapse>
+</Uncontrolled(Navbar)>
+`;

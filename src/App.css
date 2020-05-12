@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  overflow-x: auto;
+  min-height: 500px;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear;
+  padding-bottom: 10px; */
+}
+
+.App-header {
+  background-color: #222;
+  padding-top: 10px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-MessageBar {
+  width: 100%;
+  horiz-align: center;
+  bottom: 0;
+  padding: 5px;
+  display: flex;
+  background-color: #5bc0de;
+}
+
+.App-MessageList {
+  overflow-y: auto;
+  height: calc(100vh - 120px);
+}
+
+.App-MessageBox {
+  background-color: aliceblue;
+}
+
+.App-Message {
+  background-color: aliceblue;
+  padding: 10px
+}
+
+.unselectable {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+
+input, label, Button {
+  margin-left: 8px
+}
+
+li {
+  list-style-type: none;
+}
+
+@media all {
+  .App-MessageBox { flex: 13 0; }
+  .App-SendButton { flex: 1 auto; }
+}
