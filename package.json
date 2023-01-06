@@ -10,7 +10,7 @@
     "react": "^16.4.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.0",
-    "react-scripts": "1.1.4",
+    "react-scripts": "5.0.1",
     "react-scrollbar": "^0.5.4",
     "react-sidebar": "^2.3.2",
     "yarn": "^1.7.0"
